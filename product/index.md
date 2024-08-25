@@ -8,7 +8,7 @@ Our product is a place for everyone to learn, share, and grow. We encourage you 
 
 ## What is Product?
 
-Product is a basicall a place where you can find all the information about the product. You can find the product on [GitHub](https://github.com/ajay-dhangar) or [GitHab](https://github.com/codemastermindhq).
+Product is a basicall a place where you can find all the information about the product. You can find the product on [GitHub](https://github.com/) or [GitHab](https://github.com/).
 
 ## Why Product?
 
@@ -18,7 +18,7 @@ Because we are always looking for new members to join our product and help us gr
 
 There are many ways to use our product. Here are a few ideas to get you started:
 
-- **Code**: If you are a developer, you can use our project by writing code, fixing bugs, or adding new features. You can find our code on [GitHub](https://github.com/codemastermindhq).
+- **Code**: If you are a developer, you can use our project by writing code, fixing bugs, or adding new features. You can find our code on [GitHub](https://github.com/).
 
 - **Design**: If you are a designer, you can use our project by creating new designs, improving existing designs, or providing feedback on our designs. You can find our designs on [Figma](https://www.figma.com) or [Adobe XD](https://www.adobe.com/products/xd.html).
 

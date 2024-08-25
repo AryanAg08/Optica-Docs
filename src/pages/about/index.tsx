@@ -8,7 +8,7 @@ export default function About() {
   return (
     <Layout
       title={`About | ${siteConfig.title}`}
-      description="Learn more about Code Harbor Hub and our mission to provide accessible and comprehensive educational resources to learners of all levels."
+      description="Learn more about Jiit Optica and our mission to provide accessible and comprehensive educational resources to learners of all levels."
     >
       <AboutUsSection />
     </Layout>

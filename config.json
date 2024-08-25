@@ -1,10 +1,10 @@
 {
-  "index_name": "ajay-dhangario",
+  "index_name": "jiit-optica",
   "start_urls": [
-    "https://ajay-dhangar.github.io/code-harbor-hub/"
+    ""
   ],
   "sitemap_urls": [
-    "https://ajay-dhangar.github.io/code-harbor-hub/sitemap.xml"
+    ""
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
