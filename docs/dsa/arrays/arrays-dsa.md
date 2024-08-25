@@ -23,42 +23,42 @@ An array can be declared in various programming languages using the following sy
 
 <Tabs>
     <TabItem value="js" label="JavaScipt" default>
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```js
       // Declare an array in JavaScript
       let arr = [1, 2, 3, 4, 5];
       ```
     </TabItem>
     <TabItem value="java" label="Java">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```java
       // Declare an array in Java
       int[] arr = {1, 2, 3, 4, 5};
       ```
     </TabItem>
     <TabItem value="python" label="Python">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```python
       # Declare an array in Python
       arr = [1, 2, 3, 4, 5]
       ```
     </TabItem>
     <TabItem value="c" label="C">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```c
       // Declare an array in C
       int arr[] = {1, 2, 3, 4, 5};
       ```
     </TabItem>
     <TabItem value="cpp" label="C++">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```cpp
       // Declare an array in C++
       int arr[] = {1, 2, 3, 4, 5};
       ```
     </TabItem>
     <TabItem value="ts" label="TypeScript">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```ts
       // Declare an array in TypeScript
       let arr: number[] = [1, 2, 3, 4, 5];
@@ -72,7 +72,7 @@ An array can be accessed using the index of the element. The index of the first 
 
 <Tabs>
     <TabItem value="js" label="JavaScipt" default>
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```js
       // Access an array in JavaScript
       let arr = [1, 2, 3, 4, 5];
@@ -84,7 +84,7 @@ An array can be accessed using the index of the element. The index of the first 
       ```
     </TabItem>
     <TabItem value="java" label="Java">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```java
       // Access an array in Java
       int[] arr = {1, 2, 3, 4, 5};
@@ -96,7 +96,7 @@ An array can be accessed using the index of the element. The index of the first 
       ```
     </TabItem>
     <TabItem value="python" label="Python">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```python
       # Access an array in Python
       arr = [1, 2, 3, 4, 5]
@@ -108,7 +108,7 @@ An array can be accessed using the index of the element. The index of the first 
       ```
     </TabItem>
     <TabItem value="c" label="C">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```c
       // Access an array in C
       int arr[] = {1, 2, 3, 4, 5};
@@ -120,7 +120,7 @@ An array can be accessed using the index of the element. The index of the first 
       ```
     </TabItem>
     <TabItem value="cpp" label="C++">
-        <SolutionAuthor name="@Ajay-Dhangar"/>
+        <SolutionAuthor name="@Contributor"/>
         ```cpp
         // Access an array in C++
         int arr[] = {1, 2, 3, 4, 5};
@@ -132,7 +132,7 @@ An array can be accessed using the index of the element. The index of the first 
         ```
     </TabItem>
     <TabItem value="ts" label="TypeScript">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```ts
       // Access an array in TypeScript
       let arr: number[] = [1, 2, 3, 4, 5];
@@ -151,7 +151,7 @@ An array can be updated by assigning a new value to the index of the element.
 
 <Tabs>
     <TabItem value="js" label="JavaScipt" default>
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```js
       // Update an array in JavaScript
       let arr = [1, 2, 3, 4, 5];
@@ -160,7 +160,7 @@ An array can be updated by assigning a new value to the index of the element.
       ```
     </TabItem>
     <TabItem value="java" label="Java">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```java
       // Update an array in Java
       int[] arr = {1, 2, 3, 4, 5};
@@ -169,7 +169,7 @@ An array can be updated by assigning a new value to the index of the element.
       ```
     </TabItem>
     <TabItem value="python" label="Python">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```python
       # Update an array in Python
       arr = [1, 2, 3, 4, 5]
@@ -178,7 +178,7 @@ An array can be updated by assigning a new value to the index of the element.
       ```
     </TabItem>
     <TabItem value="c" label="C">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```c
       // Update an array in C
       int arr[] = {1, 2, 3, 4, 5};
@@ -190,7 +190,7 @@ An array can be updated by assigning a new value to the index of the element.
       ```
     </TabItem>
     <TabItem value="cpp" label="C++">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```cpp
       // Update an array in C++
       int arr[] = {1, 2, 3, 4, 5};
@@ -202,7 +202,7 @@ An array can be updated by assigning a new value to the index of the element.
       ```
     </TabItem>
     <TabItem value="ts" label="TypeScript">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```ts
       // Update an array in TypeScript
       let arr: number[] = [1, 2, 3, 4, 5];
@@ -218,7 +218,7 @@ The length of an array can be found using the `length` property.
 
 <Tabs>
     <TabItem value="js" label="JavaScipt" default>
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```js
       // Find the length of an array in JavaScript
       let arr = [1, 2, 3, 4, 5];
@@ -226,7 +226,7 @@ The length of an array can be found using the `length` property.
       ```
     </TabItem>
     <TabItem value="java" label="Java">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```java
       // Find the length of an array in Java
       int[] arr = {1, 2, 3, 4, 5};
@@ -234,7 +234,7 @@ The length of an array can be found using the `length` property.
       ```
     </TabItem>
     <TabItem value="python" label="Python">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```python
       # Find the length of an array in Python
       arr = [1, 2, 3, 4, 5]
@@ -242,7 +242,7 @@ The length of an array can be found using the `length` property.
       ```
     </TabItem>
     <TabItem value="c" label="C">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```c
       // Find the length of an array in C
       int arr[] = {1, 2, 3, 4, 5};
@@ -251,7 +251,7 @@ The length of an array can be found using the `length` property.
       ```
     </TabItem>
     <TabItem value="cpp" label="C++">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```cpp
       // Find the length of an array in C++
       int arr[] = {1, 2, 3, 4, 5};
@@ -260,7 +260,7 @@ The length of an array can be found using the `length` property.
       ```
     </TabItem>
     <TabItem value="ts" label="TypeScript">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```ts
       // Find the length of an array in TypeScript
       let arr: number[] = [1, 2, 3, 4, 5];
@@ -275,7 +275,7 @@ An array can be iterated using a loop such as `for` loop, `while` loop, or `for.
 
 <Tabs>
     <TabItem value="js" label="JavaScipt" default>
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```js
       // Iterate through an array in JavaScript
       let arr = [1, 2, 3, 4, 5];
@@ -290,7 +290,7 @@ An array can be iterated using a loop such as `for` loop, `while` loop, or `for.
       ```
     </TabItem>
     <TabItem value="java" label="Java">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```java
       // Iterate through an array in Java
       int[] arr = {1, 2, 3, 4, 5};
@@ -305,7 +305,7 @@ An array can be iterated using a loop such as `for` loop, `while` loop, or `for.
       ```
     </TabItem>
     <TabItem value="python" label="Python">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```python
       # Iterate through an array in Python
       arr = [1, 2, 3, 4, 5]
@@ -319,7 +319,7 @@ An array can be iterated using a loop such as `for` loop, `while` loop, or `for.
       ```
     </TabItem>
     <TabItem value="c" label="C">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```c
       // Iterate through an array in C
       int arr[] = {1, 2, 3, 4, 5};
@@ -334,7 +334,7 @@ An array can be iterated using a loop such as `for` loop, `while` loop, or `for.
       ```
     </TabItem>
     <TabItem value="cpp" label="C++">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```cpp
       // Iterate through an array in C++
       int arr[] = {1, 2, 3, 4, 5};
@@ -349,7 +349,7 @@ An array can be iterated using a loop such as `for` loop, `while` loop, or `for.
         ```
     </TabItem>
     <TabItem value="ts" label="TypeScript">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```ts
       // Iterate through an array in TypeScript
       let arr: number[] = [1, 2, 3, 4, 5];
@@ -371,7 +371,7 @@ The maximum and minimum elements in an array can be found by iterating through t
 
 <Tabs>
     <TabItem value="js" label="JavaScipt" default>
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```js
       // Find the maximum and minimum elements in an array in JavaScript
       function findMaxMin(arr) {
@@ -393,7 +393,7 @@ The maximum and minimum elements in an array can be found by iterating through t
       ```
     </TabItem>
     <TabItem value="java" label="Java">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```java
       public class Main {
       // Find the maximum and minimum elements in an array in Java
@@ -427,7 +427,7 @@ The maximum and minimum elements in an array can be found by iterating through t
       ```
     </TabItem>
     <TabItem value="python" label="Python">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```python
       # Find the maximum and minimum elements in an array in Python
       def find_max_min(arr):
@@ -445,7 +445,7 @@ The maximum and minimum elements in an array can be found by iterating through t
         ```
     </TabItem>
     <TabItem value="c" label="C">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```c
       // Find the maximum and minimum elements in an array in C
       struct MaxMin {
@@ -474,7 +474,7 @@ The maximum and minimum elements in an array can be found by iterating through t
       ```
     </TabItem>
     <TabItem value="cpp" label="C++">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```cpp
       // Find the maximum and minimum elements in an array in C++
       struct MaxMin {
@@ -503,7 +503,7 @@ The maximum and minimum elements in an array can be found by iterating through t
       ```
     </TabItem>
     <TabItem value="ts" label="TypeScript">
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```ts
       // Find the maximum and minimum elements in an array in TypeScript
       interface MaxMin {

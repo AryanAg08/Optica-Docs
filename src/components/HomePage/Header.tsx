@@ -11,6 +11,7 @@ import VanillaTilt from "vanilla-tilt";
 
 const HeaderContent = () => {
   return (
+    <>
     <div className="chh__header-content">
       <h1 className="gradient__text">Welcome to Optica Docs</h1>
       <p>
@@ -30,6 +31,7 @@ const HeaderContent = () => {
         </button>
       </div>
     </div>
+    </>
   );
 };
 

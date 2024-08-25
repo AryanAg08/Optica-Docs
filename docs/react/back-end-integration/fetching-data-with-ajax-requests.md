@@ -35,7 +35,7 @@ The `fetch()` function is a powerful tool for making AJAX requests in modern web
 Here's a basic example of how the `fetch()` API works:
 
 ```js
-fetch('https://api.github.com/users/Ajay-Dhangar')
+fetch('https://api.github.com/users/AryanAg08')
   .then((response) => response.json())
   .then((data) => {
     // Process the data here
@@ -46,7 +46,7 @@ fetch('https://api.github.com/users/Ajay-Dhangar')
   });
 ```
 
-In this example, we use the `fetch()` function to make a GET request to the URL `https://api.github.com/users/Ajay-Dhangar`. We then use the `then()` method to handle the response. The `response.json()` method reads the response data and parses it as JSON. Finally, we handle the parsed data or catch any errors that occurred during the request.
+In this example, we use the `fetch()` function to make a GET request to the URL `https://api.github.com/users/AryanAg08`. We then use the `then()` method to handle the response. The `response.json()` method reads the response data and parses it as JSON. Finally, we handle the parsed data or catch any errors that occurred during the request.
 
 ## Using `async / await` for a Cleaner Code
 
@@ -55,7 +55,7 @@ While chaining `.then()` methods works well, it can lead to callback hell when d
 ```js
 async function fetchData() {
   try {
-    const response = await fetch('https://api.github.com/users/Ajay-Dhangar');
+    const response = await fetch('https://api.github.com/users/AryanAg08');
     const data = await response.json();
     // Process the data here
     console.log(data);
@@ -119,7 +119,7 @@ const DataFetcher = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://api.github.com/users/Ajay-Dhangar'); // Replace with your API endpoint
+        const response = await axios.get('https://api.github.com/users/AryanAg08'); // Replace with your API endpoint
         setData(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);

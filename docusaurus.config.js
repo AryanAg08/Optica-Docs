@@ -9,7 +9,7 @@ const path = require("path");
 const config = {
   title: "Jiit Optica",
   tagline: "A place to learn and grow",
-  favicon: "img/favicon_io/favicon.ico",
+  favicon: "img/icon.png",
   url: process.env.URL || "http://localhost:3000/",
   baseUrl: "/",
  
@@ -28,7 +28,7 @@ const config = {
         debug: true,
         docs: {
           path: "docs",
-          sidebarPath: "sidebars.js",
+          sidebarPath: "./config/sidebars.js",
           numberPrefixParser: false,
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
@@ -255,8 +255,8 @@ const config = {
                 to: "/about/",
               },
               {
-                label: "Contact",
-                to: "#",
+                label: "Faqs",
+                to: "/community/faqs.tsx",
               },
               {
                 label: "Careers",
@@ -282,10 +282,6 @@ const config = {
               {
                 label: "GitHub",
                 href: "https://github.com/jiitopticachapter",
-              },
-              {
-                label: "Products",
-                href: "/product/",
               },
             ],
           },
@@ -425,7 +421,7 @@ const config = {
         id: "community",
         path: "community",
         routeBasePath: "community",
-        sidebarPath: require.resolve("./sidebarsCommunity.js"),
+        sidebarPath: require.resolve("./config/sidebarsCommunity.js"),
         remarkPlugins: [remarkMath],
         rehypePlugins: [rehypeKatex],
         showLastUpdateAuthor: true,
@@ -439,21 +435,7 @@ const config = {
         id: "dsa",
         path: "dsa",
         routeBasePath: "dsa",
-        sidebarPath: require.resolve("./sidebarsDSA.js"),
-        remarkPlugins: [remarkMath],
-        rehypePlugins: [rehypeKatex],
-        showLastUpdateAuthor: true,
-        showLastUpdateTime: true,
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      /** @type {import('@docusaurus/plugin-content-docs').Options} */
-      {
-        id: "product",
-        path: "product",
-        routeBasePath: "product",
-        sidebarPath: require.resolve("./sidebarsProduct.js"),
+        sidebarPath: require.resolve("./config/sidebarsDSA.js"),
         remarkPlugins: [remarkMath],
         rehypePlugins: [rehypeKatex],
         showLastUpdateAuthor: true,
@@ -467,7 +449,7 @@ const config = {
         id: "courses",
         path: "courses",
         routeBasePath: "courses",
-        sidebarPath: require.resolve("./sidebarsCourses.js"),
+        sidebarPath: require.resolve("./config/sidebarsCourses.js"),
         remarkPlugins: [remarkMath],
         rehypePlugins: [rehypeKatex],
         showLastUpdateAuthor: true,
@@ -482,7 +464,7 @@ const config = {
         path: "dsa-solutions",
         routeBasePath: "dsa-solutions",
         editUrl: "#",
-        sidebarPath: require.resolve("./sidebarsDSASolutions.js"),
+        sidebarPath: require.resolve("./config/sidebarsDSASolutions.js"),
         remarkPlugins: [remarkMath],
         rehypePlugins: [rehypeKatex],
         showLastUpdateAuthor: true,
@@ -496,14 +478,13 @@ const config = {
         id: "dsa-problems",
         path: "dsa-problems",
         routeBasePath: "dsa-problems",
-        sidebarPath: require.resolve("./sidebarsDSAProblems.js"),
+        sidebarPath: require.resolve("./config/sidebarsDSAProblems.js"),
         remarkPlugins: [remarkMath],
         rehypePlugins: [rehypeKatex],
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
       },
     ],    
-  
   ],
 };
 

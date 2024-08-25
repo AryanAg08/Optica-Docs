@@ -37,7 +37,7 @@ In the above example, the space complexity of the algorithm is O(1) because the 
 
 <Tabs>
     <TabItem value="js" label="JavaScipt" default>
-      <SolutionAuthor name="@Ajay-Dhangar"/>
+      <SolutionAuthor name="@Contributor"/>
       ```js {6,9,12}
       function findMaxMin(arr) {
         let max = arr[0];
@@ -59,7 +59,7 @@ In the above example, the space complexity of the algorithm is O(1) because the 
     </TabItem>
 
     <TabItem value="java" label="Java">
-        <SolutionAuthor name="@Ajay-Dhangar"/>
+        <SolutionAuthor name="@Contributor"/>
         ```java
         public class Main {
             public static void main(String[] args) {
@@ -88,7 +88,7 @@ In the above example, the space complexity of the algorithm is O(1) because the 
     </TabItem>
 
     <TabItem value="python" label="Python">
-        <SolutionAuthor name="@Ajay-Dhangar"/>
+        <SolutionAuthor name="@Contributor"/>
         ```python
         def find_max_min(arr):
             max = arr[0]
@@ -106,7 +106,7 @@ In the above example, the space complexity of the algorithm is O(1) because the 
     </TabItem>
 
     <TabItem value="c" label="C">
-        <SolutionAuthor name="@Ajay-Dhangar"/>
+        <SolutionAuthor name="@Contributor"/>
         ```c
         #include <stdio.h>
 
@@ -140,7 +140,7 @@ In the above example, the space complexity of the algorithm is O(1) because the 
     </TabItem>
 
     <TabItem value="cpp" label="C++">
-        <SolutionAuthor name="@Ajay-Dhangar"/>
+        <SolutionAuthor name="@Contributor"/>
         ```cpp
         #include <iostream>
         #include <map>

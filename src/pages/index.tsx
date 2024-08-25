@@ -14,6 +14,7 @@ import Header from "../components/HomePage/Header";
 export default function Home(): React.JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
+    <>
     <Layout
       title={`Optica Docs`}
       description="Welcome to Jiit Optica Docs. Learn the basics of the Club and work with others and more."
@@ -39,5 +40,6 @@ export default function Home(): React.JSX.Element {
 
       </main>
     </Layout>
+    </>
   );
 }

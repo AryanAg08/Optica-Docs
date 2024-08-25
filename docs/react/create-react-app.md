@@ -56,10 +56,3 @@ Throughout this tutorial, we will provide practical examples, code snippets, and
 
 We value your feedback! If you have any suggestions, questions, or issues related to Create React App or this documentation, please don't hesitate to reach out to us. Your input helps us improve the documentation and provide a better experience for all users.
 
-To provide feedback, you can:
-- Send us an email at ajaydhangar49@gmail.com
-- Open an issue on our GitHub repository: [issue](https://github.com/Ajay-Dhangar/code-harbor-hub/issues)
-- Join our community forum and engage in discussions: [Discussions](https://github.com/Ajay-Dhangar/code-harbor-hub/discussions)
-
-We appreciate your contribution in making Create React App even better!
-

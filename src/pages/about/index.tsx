@@ -11,6 +11,7 @@ export default function About() {
       description="Learn more about Jiit Optica and our mission to provide accessible and comprehensive educational resources to learners of all levels."
     >
       <AboutUsSection />
+   
     </Layout>
   );
 }

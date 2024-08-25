@@ -27,4 +27,4 @@ Seniors which help managing Team
 
 ## Contributors {#contributors}
 
-![contributors](https://opencollective.com/OpticaDocs/contributors.svg?button=false)
+![contributors](https://contributors-img.web.app/image?repo=AryanAg08/Optica-Docs)

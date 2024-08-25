@@ -88,7 +88,7 @@ To analyze the time complexity of an algorithm, we can follow these steps:
 
 <Tabs>
   <TabItem value="js" label="JavaScipt" default>
-   <SolutionAuthor name="@Ajay-Dhangar"/>
+   <SolutionAuthor name="@Contributor"/>
     ```js
        function sum(arr) {
          let result = 0;
