@@ -7,18 +7,15 @@ const path = require("path");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "CodeHarborHub",
+  title: "Jiit Optica",
   tagline: "A place to learn and grow",
   favicon: "img/favicon_io/favicon.ico",
   url: process.env.URL || "http://localhost:3000/",
   baseUrl: "/",
-  customFields: {
-    admin: "Ajay Dhangar",
-    superman: "Shivay",
-  },
+ 
 
-  organizationName: "codeharborhub",
-  projectName: "codeharborhub",
+  organizationName: "JiitOptica",
+  projectName: "JiitOptica",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -39,7 +36,7 @@ const config = {
             keywords: ["my-custom-admonition"],
             extendDefaults: true,
           },
-          editUrl: "https://github.com/codeharborhub/codeharborhub/edit/main/",
+          editUrl: "https://github.com/jiitopticachapter",
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
         },
@@ -48,7 +45,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/codeharborhub/codeharborhub/edit/main/",
+          editUrl: "https://github.com/jiitopticachapter",
           remarkPlugins: [[npm2yarn, { converters: ["pnpm"] }]],
         },
         theme: {
@@ -74,22 +71,22 @@ const config = {
       image: "img/nav-logo.jpg",
       announcementBar: {
         id: "announcementBar",
-        content: '⭐️ If you like CodeHarborHub, give it a star on <a target="_blank" href="https://github.com/codeharborhub/codeharborhub">GitHub</a> and join us on <a target="_blank" href="https://www.linkedin.com/company/codeharborhub/">LinkedIn</a> ⭐️',
+        content: '⭐️ If you like Optica docs, give it a star on <a target="_blank" href="https://github.com/jiitopticachapter">GitHub</a>.⭐️',
         isCloseable: true,
         backgroundColor: "var(--ifm-color-primary)",
       },
 
       algolia: {
         apiKey: "2c1a3331ebff51f76d2f247323ee4ba4",
-        indexName: "code-harbor-hub",
+        indexName: "jiit-optica",
         appId: "M9BCMBK1PH",
         contextualSearch: false,
       },
 
       navbar: {
-        title: "CodeHarborHub",
+        title: "Jiit Optica",
         logo: {
-          alt: "CodeHarborHub Logo",
+          alt: "Optica Logo",
           src: "img/nav-logo.jpg",
         },
         items: [
