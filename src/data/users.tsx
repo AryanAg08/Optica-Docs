@@ -29,6 +29,7 @@ export type TagType =
   | "typescript"
   | "ai"
   | "game"
+  | "optica"
   | "clone";
 
 export type User = {
@@ -168,74 +169,24 @@ export const Tags: { [type in TagType]: Tag } = {
     description: "",
     color: "#555555",
   },
+  optica: {
+    label: "Optica",
+    description: "",
+    color: "#ffff",
+  }
 };
 
 const Users: User[] = [
   {
-    title: "You Tube Clone",
-    description:
-      "Build and Deploy a Modern YouTube Clone Application in React JS with Material UI 5",
-    preview: require("./showcase/YouTube-Clone.jpg"),
-    website: "https://my-youtube-ajay.vercel.app/",
-    source: "https://github.com/Ajay-Dhangar/youtube_clone",
-    tags: ["opensource", "clone", "favorite", "react"],
-  },
-  {
-    title: "Quiz App",
-    description:
-      "Explore and test your knowledge with the Quiz app. Engaging quizzes to challenge your mind and expand your horizons. Try it now!",
-    preview: require("./showcase/quiz-app.jpg"),
-    website: "https://quiz-app-ajay-dhangar.vercel.app/",
-    source: "https://github.com/Ajay-Dhangar/Quiz-app",
-    tags: ["opensource", "clone", "templates"],
-  },
-  {
-    title: "Music App",
-    description:
-      "Your music, your way. Explore and enjoy a world of tunes with our Spotify-inspired app. 🎶 ",
-    preview: require("./showcase/music-app.jpg"),
-    website: "https://shivay-studio.vercel.app/",
-    source: "https://github.com/Ajay-Dhangar/music-app",
-    tags: ["opensource", "clone", "templates"],
+    title: "yourtitle",
+    description: "Description goes here!!",
+    preview: require("./showcase/YouTube-Clone.jpg"), // Require("./showcase/your_image.png"),
+    website: "https://jiitopticachapter.com",
+    source: "https://github.com/jiitopticachapter",
+    tags: ["optica"],
+
   },
 
-  {
-    title: "TailwindBlog",
-    description:
-      "The Starter app is a feature-rich Next.js and Tailwind CSS blogging starter template.",
-    preview: require("./showcase/TailwindBlog.jpg"),
-    website: "https://starter-aj-zero-coding.vercel.app/",
-    source: "https://github.com/Ajay-Dhangar/starter",
-    tags: ["opensource", "clone", "templates"],
-  },
-
-  {
-    title: "GERIGHT",
-    description:
-      "Experience culinary excellence at Gericht Restaurant: Modern UI, showcasing The Key To Fine Dining.",
-    preview: require("./showcase/gericht-restaurant-modern-ui.jpg"),
-    website: "https://ajay-1.vercel.app/",
-    source: "https://github.com/Ajay-Dhangar/gericht-restaurant-modern-ui",
-    tags: ["opensource", "templates", "clone"],
-  },
-  {
-    title: "Tic Tac Toe Game",
-    description:
-      "Tic Tac Toe Game using React JS. Play the game and enjoy the fun.",
-    preview: require("./showcase/react-tic-tac-toe.jpg"),
-    website: "#",
-    source: "https://github.com/Ajay-Dhangar/react-tic-tac-toe",
-    tags: ["opensource", "game", "react"],
-  },
-  {
-    title: "Broadcast Web",
-    description:
-      "Broadcast Web is a modern and responsive web application for broadcasting your own channel.",
-    preview: require("./showcase/broadcast-web.jpg"),
-    website: "https://codeharborhub-broadcast-web.vercel.app/",
-    source: "",
-    tags: ["opensource", "product", "nextjs", "javascript"],
-  },
 ];
 
 export const TagList = Object.keys(Tags) as TagType[];

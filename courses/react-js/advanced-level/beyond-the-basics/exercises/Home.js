@@ -6,7 +6,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("https://api.github.com/users/ajay-dhangar");
+        const res = await fetch("https://api.github.com/users/AryanAg08");
         const userData = await res.json();
         setUser(userData);
       } catch (error) {

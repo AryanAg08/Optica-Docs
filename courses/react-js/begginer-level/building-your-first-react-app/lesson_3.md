@@ -86,7 +86,7 @@ const MyComponent = () => {
       <p>{isLoggedIn ? "You are logged in" : "Please log in"}</p>
 
       {/* Defining attributes */}
-      <img src="https://github.com/ajay-dhangar.png" alt="Ajay" style={{ width: "100px", borderRadius: "50%" }} />
+      <img src="https://github.com/AryanAg08.png" alt="Aryan" style={{ width: "100px", borderRadius: "50%" }} />
 
       {/* Conditionally render elements */}
       {isLoggedIn && <p>Welcome back, {name}!</p>}

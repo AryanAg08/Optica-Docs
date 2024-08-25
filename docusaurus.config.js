@@ -84,10 +84,10 @@ const config = {
       },
 
       navbar: {
-        title: "Jiit Optica",
+        title: "JIIT OPTICA",
         logo: {
           alt: "Optica Logo",
-          src: "img/nav-logo.jpg",
+          src: "img/icon.png",
         },
         items: [
           {
@@ -164,19 +164,6 @@ const config = {
             position: "left",
           },
           {
-            html: '<span class="nav-emoji"> 📊</span> Quiz',
-            to: "https://quiz-app-ajay-dhangar.vercel.app/",
-          },
-          {
-            html: '<span class="nav-emoji"> 📺</span> Broadcast',
-            to: "https://codeharborhub-broadcast-web.vercel.app/",
-          },
-
-          {
-            to: "/blog",
-            html: '<span class="nav-emoji">📰</span> Blog',
-          },
-          {
             type: "dropdown",
             html: '<span class="nav-emoji">🏷️</span> Tags',
             position: "left",
@@ -214,7 +201,7 @@ const config = {
             position: "right",
           },
           {
-            href: "https://github.com/codeharborhub/codeharborhub",
+            href: "https://github.com/jiitopticachapter",
             position: "right",
             className: "header-github-link",
             "aria-label": "GitHub repository",
@@ -231,9 +218,8 @@ const config = {
               {
                 html: `
                     <div class="footer_info--container">
-                      <img src="/img/nav-logo.jpg" alt="Footer logo" />
+                      <img src="/img/logo.png" alt="Footer logo" />
                       <span>
-                      Our mission at CodeHarborHub is clear: to provide accessible and comprehensive educational resources to learners of all levels, from beginners to advanced professionals.
                       </span>
                     </div>
                   `,
@@ -283,27 +269,6 @@ const config = {
             ],
           },
           {
-            title: "Terms/Conditions",
-            items: [
-              {
-                label: "Privacy Policy",
-                to: "/privacy-policy/",
-              },
-              {
-                label: "Terms of Service",
-                to: "/terms-service/",
-              },
-              {
-                label: "Code of Conduct",
-                to: "/code-of-conduct",
-              },
-              {
-                label: "Cookie Policy",
-                to: "/cookie-policy",
-              },
-            ],
-          },
-          {
             title: "Quick Links",
             items: [
               {
@@ -316,7 +281,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/codeharborhub",
+                href: "https://github.com/jiitopticachapter",
               },
               {
                 label: "Products",
@@ -329,7 +294,7 @@ const config = {
             items: [
               {
                 label: "LinkedIn",
-                href: "https://www.linkedin.com/company/codeharborhub/",
+                href: "https://www.linkedin.com/",
               },
               {
                 label: "YouTube",
@@ -337,16 +302,16 @@ const config = {
               },
               {
                 label: "Discord",
-                href: "https://discord.gg/c53FQn3pRv",
+                href: "https://discord.gg/",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/CodesWithAjay",
+                href: "https://twitter.com/",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CodeHarborHub, Made by <a href="https://github.com/Ajay-Dhangar/">Ajay Dhangar</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jiit Optica, Made by <a href="https://github.com/AryanAg08/">Aryan Goyal</a>`,
       },
       prism: {
         theme: prismThemes.github,
@@ -538,14 +503,7 @@ const config = {
         showLastUpdateTime: true,
       },
     ],    
-    [
-      path.join(__dirname, "/plugins/my-plugin"),
-      {
-        settings: "Some20settings",
-        api: "Some-API",
-        keys: "Some-keys",
-      },
-    ],
+  
   ],
 };
 

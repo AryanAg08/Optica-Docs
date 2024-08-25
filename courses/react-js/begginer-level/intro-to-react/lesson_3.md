@@ -93,7 +93,7 @@ In this course, we will be using Visual Studio Code as our code editor. You can 
       </TabItem>
       <TabItem value="On Github" label="On Github">
 
-         [![alt text](image-4.png)](https://github.com/Ajay-Dhangar/dark-code-master-theme)
+         [![alt text](image-4.png)](https://github.com/AryanAg08/dark-code-master-theme)
 
       </TabItem>
 

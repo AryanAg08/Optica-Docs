@@ -7,7 +7,7 @@ const DataFetcher = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://api.github.com/users/Ajay-Dhangar'); // Replace with your API endpoint
+        const response = await axios.get('https://api.github.com/users/AryanAg08'); // Replace with your API endpoint
         setData(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);

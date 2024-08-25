@@ -7,7 +7,7 @@ function FetchDataComponent() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch('https://api.github.com/users/Ajay-Dhangar');
+        const response = await fetch('https://api.github.com/users/AryanAg08');
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }

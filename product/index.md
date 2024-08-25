@@ -28,5 +28,4 @@ There are many ways to use our product. Here are a few ideas to get you started:
 
 ## Get Started
 
-To get started, you can join our product on [Discord](https://discord.com) or [Slack](https://slack.com). You can also find our project on [GitHub](https://github.com/ajay-dhangar).
-
+To get started,

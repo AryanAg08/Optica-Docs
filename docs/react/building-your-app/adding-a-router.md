@@ -91,12 +91,6 @@ function Home() {
   );
 }
 ```
-### 7: Celebrate Your Success!
-Congratulations, Code Mastermind! You've successfully added React Router to your app, making it dynamic and user-friendly. Now, users can roam freely through your theme park without ever getting lost.
-
-### Apply your Idea's
-
-[Contribution Now](https://github.com/Ajay-Dhangar/react-blog-app/tree/main/)
 
 ## Conclusion:
 Routing in React is like a thrilling roller coaster ride for developers. We've just scratched the surface of what React Router can do. So keep exploring, experimenting, and creating breathtaking experiences for your users. Until next time, happy coding, Code Masterminds! 🎢

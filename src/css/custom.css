@@ -134,11 +134,13 @@ mark {
 }
 
 .footer_info--container {
-  width: 380px;
+  width: 20vw;
+
 }
 
 .footer_info--container img {
-  width: 62px;
+  width: 40vw;
+  height: auto;
   border-radius: 8px;
   padding: 0.2rem;  
 }

@@ -1,10 +1,10 @@
 {
-  "index_name": "jiit-optica",
+  "index_name": "aryan-goyal",
   "start_urls": [
-    ""
+    "https://github.com/jiitopticachapter"
   ],
   "sitemap_urls": [
-    ""
+    "https://github.com/jiitopticachapter"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
